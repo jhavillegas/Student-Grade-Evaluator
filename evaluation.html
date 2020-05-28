@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="evaluation.css">
+    <title>Evaluation</title>
+</head>
+<body>
+    <section>
+        <h1>Student Grade Evaluator</h1>
+    </section>
+
+    <div class="una">
+        <table>
+            <tr>
+                <td><h3>Student Name: </h3></td>
+                <td><input type="text" placeholder="Full Name"></td>
+            </tr>
+        </table>
+    </div>
+
+   <div class="parent-con">
+    <table>
+        <h2>List of Subjects:</h2>
+
+        <tr>
+            <th>Subject Title</th>
+            <th>Grade</th>
+            <th>Evaluation</th>
+        </tr>
+        <tr>
+            <td>Math</td>
+            <td><input type="number"></td>
+            <td><p>Evaluation</p></td>
+        </tr>
+        <tr>
+            <td>Science</td>
+            <td><input type="number"></td>
+            <td><p>Evaluation</p></td>
+        </tr>
+        <tr>
+            <td>English</td>
+            <td><input type="number"></td>
+            <td><p>Evaluation</p></td>
+        </tr>
+        <tr>
+            <td>Filipino</td>
+            <td><input type="number"></td>
+            <td><p>Evaluation</p></td>
+        </tr>
+        <tr>
+            <td>P.E.</td>
+            <td><input type="number"></td>
+            <td><p>Evaluation</p></td>
+        </tr>
+    </table>
+    <div>
+        <button onclick="eval()">Evaluate</button>
+    </div>
+
+    <div class="ranking">
+        <h3>Student Rank: </h3>
+        <h3 class="rank">RANK HERE</h3>
+        <button onclick="rank()">Rank</button>
+    </div>
+   </div>
+</body>
+<script src="eval.js"></script>
+<script src="rank.js"></script>
+</html>
